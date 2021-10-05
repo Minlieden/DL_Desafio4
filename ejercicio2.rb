@@ -86,7 +86,7 @@ class Gato < Mamifero
 end
 
 class Vaca < Mamifero
-  include Herviboro
+  include Herbivoro
 end
 
 class Mosca < Insecto
@@ -102,4 +102,4 @@ class Abeja < Insecto
 end
 
 pinguino1 = Pinguino.new("cadete")
-puts cadete.volar
+puts pinguino1.nadar
